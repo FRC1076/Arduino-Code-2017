@@ -202,7 +202,7 @@ void loop() {
     for (int j = 0; j < 2; j++) {
         for (int i=0; i<NUM_METERS; i++) {
             left_meters[i].hangPixels(left_meters[i].meterValue());
-            right_meters[i].hangPixels(left_meters[i].meterValue());
+            right_meters[i].hangPixels(right_meters[i].meterValue());
         }
         left_meters[0].show();
         right_meters[0].show();
